@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    overflow: hidden;
+    background: #696e9e;
+    height: 300px;
+    color: white;
+  }
+  
+div{
+    margin-right: auto;
+    margin-left: auto;
+}  
+  .typeAhead {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+  }
+  
+  .typeAhead input {
+    flex-basis: 100%;
+  }
+  
+  .typeAhead ul {
+    list-style-type: none;
+    padding: 0;
+    flex-basis: 100%;
+    border: 1px solid #c9c9c9;
+    margin: 0;
+    z-index: 1;
+  }
+  
+  .typeAhead li {
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+    background-color: green;
+    z-index: 1;
+  }
+  
+  .typeAhead li:hover {
+    background: red;
+    z-index: 1;
+    cursor: pointer;
+  }
+h1{
+    text-align: center;
+  }
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.przyciskIwynik{
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    left: 860px;
+    margin-top: -40px;
+}
+input.przycisk{
+    width: 200px;
+    border-radius: 2px;
+}
